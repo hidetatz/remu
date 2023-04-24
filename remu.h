@@ -19,6 +19,15 @@ typedef uint32_t u32;
 typedef uint64_t u64;
 
 /*
+ * elf
+ */
+
+#include <stdio.h>
+#include <elf.h>
+
+int load_elf(char *buf);
+
+/*
  * xlen
  */
 

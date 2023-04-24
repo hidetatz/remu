@@ -1,2 +1,2 @@
 all: remu
-	gcc remu.c -o remu
+	gcc remu.c load.c -o remu
