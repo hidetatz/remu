@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker run --rm -it \
+  --mount type=bind,source="$(pwd)"/test,target=/test \
+  ghcr.io/hidetatz/remu/remu-riscv-gnu-toolchain-x86_64:latest
